@@ -1,0 +1,11 @@
+SELECT * FROM employees
+WHERE salary BETWEEN 8000 AND 12000
+AND commission_pct IS NOT NULL
+AND hire_date < '2006-06-05'
+AND department_id NOT IN (40,70,120);
+
+SELECT * FROM employees
+WHERE salary BETWEEN 8000 AND 12000
+AND commission_pct IS NOT NULL
+AND hire_date < '2006-06-05'
+AND department_id NOT IN (40,70,120);
