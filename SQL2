@@ -1,0 +1,4 @@
+SELECT CONCAT(first_name,' ', last_name) as "Full Name", hire_date, salary, department_id 
+FROM employees
+WHERE UPPER(first_name) not like '%M%' --UPPER needs to be used to avoid any discrepancy
+ORDER BY department_id;
