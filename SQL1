@@ -1,0 +1,3 @@
+SELECT CONCAT(first_name, ' ', last_name) AS "Full Name", salary --include double quotation or [] marks in aliasing for names with spaces
+FROM employees
+WHERE salary < 6000;
